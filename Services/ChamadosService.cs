@@ -32,16 +32,6 @@ namespace CadastroVeiculo.Services
                 throw;
             }
 
-
-
-
-
-
-
-
-
-
-
         }
 
 

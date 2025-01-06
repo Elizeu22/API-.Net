@@ -14,8 +14,8 @@ namespace CadastroVeiculo.Services
     {
         Task<IEnumerable<Colaborador>> GetColaboradores();
         Task<Colaborador> GetColaborador(int id);
-        Task Colaboradores(Colaborador chamados);
-        Task AtualizarColaborador(Colaborador chamados);
+        Task PostColaboradores(Colaborador chamados);
+        Task PutAtualizarColaborador(Colaborador chamados);
         Task DeletarColaborador(Colaborador chamados);
     }
 }
